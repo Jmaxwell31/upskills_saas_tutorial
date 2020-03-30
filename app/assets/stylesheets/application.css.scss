@@ -33,10 +33,11 @@ body, .navbar {
     border: none; 
 }//remove border from the navbar
 
-.navbar-default .navbar-brand{
-    color:black;
-} //change color of DevMatch logo on nav bar
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: black;
-}// change color of About link on Home Page
+    &:hover{
+        color:#686868;
+    }
+    
+}// change color of About link on Home Page and change color of DevMatch logo on nav bar
