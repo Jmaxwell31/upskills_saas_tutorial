@@ -22,13 +22,21 @@ h1, h2, h3 {
 }
 
 body, .navbar {
-  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
+} //background being applied to all pages and navbar 
 
 .navbar{
-    border: none;
-}
+    border: none; 
+}//remove border from the navbar
+
+.navbar-default .navbar-brand{
+    color:black;
+} //change color of DevMatch logo on nav bar
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}// change color of About link on Home Page
