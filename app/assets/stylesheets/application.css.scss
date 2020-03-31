@@ -38,9 +38,13 @@ body, .navbar {
     border: none; 
 }//remove border from the navbar
 
+
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
     &:hover{
         color:#686868;
     }
