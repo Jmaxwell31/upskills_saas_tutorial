@@ -34,7 +34,7 @@ body, .navbar {
   -o-background-size: cover;
 } //background being applied to all pages and navbar 
 
-.navbar{
+.navbar, .navbar-collapse{
     border: none; 
 }//remove border from the navbar
 
@@ -48,5 +48,17 @@ body, .navbar {
     &:hover{
         color:#686868;
     }
-    
 }// change color of About link on Home Page and change color of DevMatch logo on nav bar
+
+.navbar-default .navbar-toggle .icon-bar{
+    color: black;
+} 
+
+.navbar-default .navbar-toggle{
+    border: 2px solid black;
+    &:hover, &:focus {
+        color:#686868;
+        background-color:transparent;
+    }
+}
+// change toggle bar color to black when page is condensed (mobile)
